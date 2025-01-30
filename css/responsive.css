@@ -1,0 +1,111 @@
+@media screen and (max-width: 768px) {
+    #hero {
+        padding: 1rem;
+    }
+
+    .hero-name {
+        font-size: 2.3rem;
+    }
+
+    .pre-title {
+        font-size: 0.8rem;
+    }
+
+    .title {
+        margin: 0.5rem 0 2rem;
+        font-size: 1.7rem;
+    }
+
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .education-info {
+        font-size: 0.9rem;
+    }
+
+    .skills-grid p {
+        font-size: 0.9rem;
+    }
+
+    .skills-list li {
+        font-size: 0.9rem;
+    }
+
+    :root {
+        --paddingSection: 3rem 1rem;
+    }
+
+    .portofolio-title h4 {
+        font-size: 1.5rem;
+    }
+
+    .portofolio-info p {
+        font-size: 1rem;
+    }
+
+    .portofolio-tags div {
+        padding: 0.3rem 0.8rem;
+    }
+
+    .portofolio-cover {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .jumbotron {
+        font-size: 18px;
+        padding: 20px;
+        background-color: var(--Color1);
+    }
+
+    p {
+        line-height: 1.5rem;
+    }
+
+    #hero {
+        padding: 0.8rem;
+    }
+
+    .hero-item p {
+        font-size: 0.9rem;
+    }
+
+    .education-info p {
+        margin: 0.2rem 0 0.2rem;
+    }
+
+    .contact {
+        padding: 1rem 1.5rem;
+    }
+
+    .contact-info i {
+        font-size: 1.2rem;
+    }
+
+    .contact-info p {
+        font-size: 0.8rem;
+    }
+
+    .contact-media {
+        gap: 2.5rem;
+    }
+
+    .contact-media i {
+        font-size: 1.8rem;
+    }
+
+    .portofolio-tags {
+        gap: 0.5rem;
+    }
+
+    .portofolio-cover {
+        height: 200px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
